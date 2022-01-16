@@ -1,0 +1,189 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    background-image: url("images/bg-intro-desktop.png");
+    background-size: cover;
+}
+main:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:  rgba(255, 122, 122, 0.884);
+    z-index:-2;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+    padding:10%;
+}
+.main-text{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    float:left;
+    padding-right: 5%;
+  
+}
+.add-info{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    float:left; 
+}
+
+h1{
+    width:380px;
+    font-size: 45px;
+    color:#fff;
+}
+
+p,.claim-btn{
+    color:#fff;
+}
+.form-entries{
+    background-color: #fff;
+    height:310px;
+    padding-top: 6%;
+    padding-right: 10%;
+    padding-left: 6%;
+    padding-bottom: 12%;
+    border-radius: 10px;
+}
+input{
+    width:99%;
+    padding-top:3%;
+    padding-bottom:3%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    border-color: rgba(211, 211, 211, 0.685);
+    border-top-style: outset;
+    border-left-style: outset;
+  
+}
+input:focus-within{
+        outline-color: hsl(248, 32%, 49%);
+        transform: scale(1.025);
+}
+
+:placeholder-shown{
+padding-left: 5%;
+}
+
+input .error{
+    border-color:hsl(0, 100%, 74%) ;
+}
+
+.try-btn,.claim-btn,.form-entries{
+    border:none;
+    box-shadow:0 11px 6px -8px rgb(117, 116, 116);
+}
+.try-btn{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    background-color:hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+}
+.claim-btn{
+    width: 450px;
+    background-color:hsl(154, 59%, 51%);
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding:4%;
+    border-radius: 5px;
+}
+.claim-btn:hover{
+    background-color:hsl(154, 46%, 65%);
+}
+
+.terms{
+    color:hsl(0, 100%, 74%);
+}
+small{
+    color:hsl(246, 25%, 77%);
+    font-size: 10px;
+    padding-left:10%;
+}
+
+
+@media (max-width:390px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:360px;
+        height: 600px;
+        padding-top:10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    main{
+        background-image: url("images/bg-intro-mobile.png");
+        margin-top:10%;
+        margin-bottom:10%;
+        background-size: cover;
+        background-repeat: repeat;
+        height: 600px;
+    }
+    p{
+        font-size: small;
+    }
+    h1{
+        font-size: larger;
+        width:90%;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    .main-p{
+        width:90%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .main-text{
+        width:80%;
+        padding:0;
+    }
+    .add-info{
+        width:60%;
+    }
+    .try-btn{
+        width:250px;
+        padding-left:20%;
+        padding-right: 20%;
+        margin-top: 10%;
+    }
+    .form-entries{
+        width:100%;
+    }
+    .claim-btn{
+        width:100%;
+    }
+    input{
+        padding:5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
