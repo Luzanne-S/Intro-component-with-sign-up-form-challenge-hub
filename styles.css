@@ -5,6 +5,7 @@ body{
 main{
     background-image: url("images/bg-intro-desktop.png");
     background-size: cover;
+    height:fit-content;
 }
 main:before {
     content: '';
@@ -49,7 +50,7 @@ p,.claim-btn{
 }
 .form-entries{
     background-color: #fff;
-    height:310px;
+    height:fit-content;
     padding-top: 6%;
     padding-right: 10%;
     padding-left: 6%;
@@ -76,16 +77,31 @@ input:focus-within{
 padding-left: 5%;
 }
 
-input .error{
-    border-color:hsl(0, 100%, 74%) ;
-}
+.has-error input {
+    border: 2px hsl(0, 100%, 74%) solid !important;
+    padding-right: calc(-7.25rem + 0.75rem) !important;
+    margin-bottom: 0.5rem !important;
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+    color: hsl(0, 100%, 74%);
+  }
+  
+  .has-error .error-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+    margin-bottom: 1rem;
+    text-align: right;
+  }
 
 .try-btn,.claim-btn,.form-entries{
     border:none;
     box-shadow:0 11px 6px -8px rgb(117, 116, 116);
 }
 .try-btn{
-    margin-top: -10%;
+    margin-top: -15%;
     margin-bottom: 5%;
     background-color:hsl(248, 32%, 49%);
     border-radius: 10px;
@@ -119,38 +135,53 @@ small{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width:360px;
-        height: 600px;
-        padding-top:10%;
-        padding-left: 5%;
-        padding-right: 5%;
+        width:350px;
+        height: 650px;
+        padding:0;
         text-align: center;
+        margin-top:20%;
+
     }
     main{
         background-image: url("images/bg-intro-mobile.png");
-        margin-top:10%;
-        margin-bottom:10%;
         background-size: cover;
         background-repeat: repeat;
-        height: 600px;
+        width:350px;
+        height: 667px;
+        margin-top:10%;
+        margin-bottom:10%;
+     
+      
+    }
+    main:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background:  rgba(255, 122, 122, 0.884);
+        z-index:-2;
     }
     p{
         font-size: small;
     }
     h1{
         font-size: larger;
-        width:90%;
-        margin-left:10%;
-        margin-right: 10%;
+        width:250px;
+      
     }
     .main-p{
-        width:90%;
+        width:60%;
         padding-left: 10%;
         padding-right: 10%;
+        font-size: 12px;
+        margin:auto;
     }
     .main-text{
-        width:80%;
+        width:250px;
         padding:0;
+
     }
     .add-info{
         width:60%;
@@ -160,15 +191,22 @@ small{
         padding-left:20%;
         padding-right: 20%;
         margin-top: 10%;
+   
     }
     .form-entries{
-        width:100%;
+        width:220px;
+    
     }
     .claim-btn{
         width:100%;
+        padding:15px;
     }
     input{
         padding:5%;
+        width:200px;
+    }
+    small{
+        font-size: 9px;
     }
 }
 
