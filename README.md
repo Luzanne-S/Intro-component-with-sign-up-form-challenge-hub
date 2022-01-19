@@ -12,7 +12,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](ttps://github.com/Luzanne-S/Intro-component-with-sign-up-form-challenge-hub)
+- Solution URL: [Add solution URL here](https://github.com/Luzanne-S/Intro-component-with-sign-up-form-challenge-hub)
 - Live Site URL: [Add live site URL here](https://luzanne-s.github.io/Intro-component-with-sign-up-form-challenge-hub/)
 
 ## My process
@@ -50,4 +50,3 @@ Users should be able to:
 
 - Frontend Mentor - [@Luzanne-S](https://www.frontendmentor.io/profile/Luzanne-S)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
