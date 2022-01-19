@@ -63,10 +63,9 @@ input{
     padding-bottom:3%;
     margin-bottom: 3%;
     border-radius: 5px;
-    border-color: rgba(211, 211, 211, 0.685);
+    border-color: rgba(211, 211, 211, 0.685);    
     border-top-style: outset;
-    border-left-style: outset;
-  
+    border-left-style: outset;  
 }
 input:focus-within{
         outline-color: hsl(248, 32%, 49%);
@@ -135,11 +134,11 @@ small{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width:350px;
+        width:370px;
         height: 650px;
         padding:0;
         text-align: center;
-        margin-top:20%;
+        margin-top:1%;
 
     }
     main{
@@ -147,19 +146,17 @@ small{
         background-size: cover;
         background-repeat: repeat;
         width:350px;
-        height: 667px;
-        margin-top:10%;
-        margin-bottom:10%;
+        height: fit-content;
+        display:block;
+        margin:0;
      
       
     }
     main:before {
         content: '';
         position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
+        width:370px;
+        height:667px;
         background:  rgba(255, 122, 122, 0.884);
         z-index:-2;
     }
@@ -180,7 +177,7 @@ small{
     }
     .main-text{
         width:250px;
-        padding:0;
+        margin:auto;
 
     }
     .add-info{
@@ -191,10 +188,13 @@ small{
         padding-left:20%;
         padding-right: 20%;
         margin-top: 10%;
+        margin-left:16%;
+    
    
     }
     .form-entries{
         width:220px;
+        margin-left:16%;
     
     }
     .claim-btn{
