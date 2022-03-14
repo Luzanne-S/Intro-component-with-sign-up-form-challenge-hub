@@ -76,7 +76,8 @@ input:focus-within{
 padding-left: 5%;
 }
 
-.has-error input {
+
+.errorMsg input {
     border: 2px hsl(0, 100%, 74%) solid !important;
     padding-right: calc(-7.25rem + 0.75rem) !important;
     margin-bottom: 0.5rem !important;
@@ -87,7 +88,7 @@ padding-left: 5%;
     color: hsl(0, 100%, 74%);
   }
   
-  .has-error .error-text {
+.error-text {
     font-size: 12px;
     font-weight: 600;
     color: hsl(0, 100%, 74%);
