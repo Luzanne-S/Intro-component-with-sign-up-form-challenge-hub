@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro component with sign up form solution
+# Frontend Mentor - Intro component with sign up form 
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Luzanne-S/Intro-component-with-sign-up-form-challenge-hub)
-- Live Site URL: [Add live site URL here](https://luzanne-s.github.io/Intro-component-with-sign-up-form-challenge-hub/)
+- Solution URL: [https://github.com/Luzanne-S/Intro-component-with-sign-up-form-challenge-hub]
+- Live Site URL:[https://luzanne-s.github.io/Intro-component-with-sign-up-form-challenge-hub/]
 
 ## My process
 
